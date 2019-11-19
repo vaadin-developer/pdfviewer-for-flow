@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>pdfviewer-for-flow-parent</artifactId>
+    <groupId>org.rapidpm.vaadin</groupId>
+    <version>1.0.0-RPM</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>pdfviewer-for-flow-demo</artifactId>
+
+  <!-- Just to disable any accidental deployment to maven.central -->
+  <distributionManagement>
+    <repository>
+      <id>localhost</id>
+      <url>file://${basedir}/target/repo/</url>
+    </repository>
+    <snapshotRepository>
+      <id>localhost</id>
+      <url>file://${basedir}/target/snapshot-repo/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+
+  <dependencies>
+    <dependency>
+      <groupId>org.rapidpm.vaadin</groupId>
+      <artifactId>pdfviewer-for-flow</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.rapidpm.vaadin</groupId>
+      <artifactId>nano-vaadin-undertow</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.vaadin</groupId>
+      <artifactId>vaadin-lumo-theme</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.vaadin</groupId>
+      <artifactId>vaadin-ordered-layout-flow</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.vaadin</groupId>
+      <artifactId>vaadin-upload-flow</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.vaadin</groupId>
+      <artifactId>vaadin-button-flow</artifactId>
+    </dependency>
+  </dependencies>
+
+</project>
