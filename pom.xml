@@ -21,12 +21,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <packaging>pom</packaging>
-  <modules>
-    <module>10_component</module>
-    <!--    not used imo-->
-    <!--    <module>20_component_test</module>-->
-    <module>30_demo</module>
-  </modules>
+
 
   <parent>
     <groupId>org.rapidpm</groupId>
@@ -37,14 +32,21 @@
 
   <groupId>org.rapidpm.vaadin</groupId>
   <artifactId>pdfviewer-for-flow-parent</artifactId>
-  <version>01.00.00-RPM</version>
+  <version>01.00.01-RPM-SNAPSHOT</version>
+
+  <modules>
+    <module>10_component</module>
+    <!--    not used imo-->
+    <!--    <module>20_component_test</module>-->
+    <module>30_demo</module>
+  </modules>
 
   <dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>org.rapidpm.vaadin</groupId>
         <artifactId>pdfviewer-for-flow</artifactId>
-        <version>01.00.00-RPM</version>
+        <version>01.00.01-RPM-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.rapidpm.vaadin</groupId>

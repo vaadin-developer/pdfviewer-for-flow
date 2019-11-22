@@ -1,6 +1,6 @@
 _data/webdrivers/*
-node/*
-node_modules/*
+*/node/*
+*/node_modules/*
 
 
 
