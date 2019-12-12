@@ -32,7 +32,7 @@
 
   <groupId>org.rapidpm.vaadin</groupId>
   <artifactId>pdfviewer-for-flow-parent</artifactId>
-  <version>01.00.01-RPM</version>
+  <version>01.00.02-RPM-SNAPSHOT</version>
 
   <modules>
     <module>10_component</module>
@@ -46,7 +46,7 @@
       <dependency>
         <groupId>org.rapidpm.vaadin</groupId>
         <artifactId>pdfviewer-for-flow</artifactId>
-        <version>01.00.01-RPM</version>
+        <version>01.00.02-RPM-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.rapidpm.vaadin</groupId>
