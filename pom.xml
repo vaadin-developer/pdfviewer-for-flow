@@ -26,7 +26,7 @@
   <parent>
     <groupId>org.rapidpm</groupId>
     <artifactId>rapidpm-vaadin-dependencies-v14</artifactId>
-    <version>04.05.02-RPM</version>
+    <version>04.06.01-RPM-SNAPSHOT</version>
   </parent>
 
 
@@ -34,11 +34,20 @@
   <artifactId>pdfviewer-for-flow-parent</artifactId>
   <version>01.00.02-RPM-SNAPSHOT</version>
 
+  <repositories>
+    <repository>
+      <id>sven-ruppert</id>
+      <name>Dev Repo with SNAPSHOTS</name>
+      <layout>default</layout>
+      <url>http://repo.sven-ruppert.de/repository/maven-public/</url>
+    </repository>
+  </repositories>
+
   <modules>
-    <module>10_component</module>
-    <!--    not used imo-->
-    <!--    <module>20_component_test</module>-->
-    <module>30_demo</module>
+    <module>01_impl</module>
+    <module>02_test</module>
+    <module>03_demo</module>
+
   </modules>
 
   <dependencyManagement>

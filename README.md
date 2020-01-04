@@ -6,6 +6,7 @@ Based on a web component...
 ## Release Notes
 
 ### next
+* new prj structure for TC build
 
 ### 01.00.01-RPM
 * Vaadin Update 
