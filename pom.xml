@@ -33,6 +33,17 @@
   <groupId>org.rapidpm.vaadin</groupId>
   <artifactId>pdfviewer-for-flow-parent</artifactId>
   <version>01.00.02-RPM-SNAPSHOT</version>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+
+
   <properties>
     <jdk.version>1.8</jdk.version>
 
