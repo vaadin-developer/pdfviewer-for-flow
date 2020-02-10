@@ -20,20 +20,51 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <packaging>pom</packaging>
-
-
   <parent>
     <groupId>org.rapidpm.vaadin</groupId>
     <artifactId>rapidpm-vaadin-dependencies-v14</artifactId>
     <version>05.00.00-alpha-b4</version>
   </parent>
 
-
   <groupId>org.rapidpm.vaadin</groupId>
   <artifactId>pdfviewer-for-flow-parent</artifactId>
+  <packaging>pom</packaging>
   <version>01.01.00-alpha</version>
 
+
+  <inceptionYear>2017</inceptionYear>
+  <organization>
+    <name>Vaadin</name>
+    <url>http://www.vaadin.com</url>
+  </organization>
+  <url>https://github.com/vaadin-developer/pdfviewer-for-flow</url>
+
+  <scm>
+    <url>https://github.com/vaadin-developer/pdfviewer-for-flow</url>
+    <connection>
+      scm:git:https://github.com/vaadin-developer/pdfviewer-for-flow.git
+    </connection>
+    <developerConnection>
+      scm:git:https://github.com/vaadin-developer/pdfviewer-for-flow.git
+    </developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+  <developers>
+    <developer>
+      <name>Sven Ruppert</name>
+      <email>sven.ruppert@gmail.com</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>Github</system>
+    <url>
+      https://github.com/vaadin-developer/pdfviewer-for-flow/issues
+    </url>
+  </issueManagement>
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
@@ -42,6 +73,8 @@
       <comments>A business-friendly OSS license</comments>
     </license>
   </licenses>
+  
+
 
 
   <properties>
