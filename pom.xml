@@ -29,7 +29,7 @@
   <groupId>org.rapidpm.vaadin</groupId>
   <artifactId>pdfviewer-for-flow-parent</artifactId>
   <packaging>pom</packaging>
-  <version>01.01.00-alpha</version>
+  <version>01.01.01</version>
 
 
   <inceptionYear>2017</inceptionYear>
