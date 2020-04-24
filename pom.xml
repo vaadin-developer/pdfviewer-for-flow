@@ -23,7 +23,7 @@
   <parent>
     <groupId>org.rapidpm.vaadin</groupId>
     <artifactId>rapidpm-vaadin-dependencies-v14</artifactId>
-    <version>05.00.01-153</version>
+    <version>05.00.01-162</version>
   </parent>
 
   <groupId>org.rapidpm.vaadin</groupId>
@@ -135,12 +135,12 @@
       <dependency>
         <groupId>org.rapidpm.vaadin</groupId>
         <artifactId>pdfviewer-for-flow</artifactId>
-        <version>01.01.01-158</version>
+        <version>01.01.01-160</version>
       </dependency>
       <dependency>
         <groupId>org.rapidpm.vaadin</groupId>
         <artifactId>nano-vaadin-undertow</artifactId>
-        <version>01.01.01-68</version>
+        <version>01.01.01-72</version>
       </dependency>
 
     </dependencies>
