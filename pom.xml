@@ -135,7 +135,7 @@
       <dependency>
         <groupId>org.rapidpm.vaadin</groupId>
         <artifactId>pdfviewer-for-flow</artifactId>
-        <version>01.01.01-164</version>
+        <version>01.01.01-165</version>
       </dependency>
       <dependency>
         <groupId>org.rapidpm.vaadin</groupId>
