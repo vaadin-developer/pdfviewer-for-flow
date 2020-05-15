@@ -135,12 +135,12 @@
       <dependency>
         <groupId>org.rapidpm.vaadin</groupId>
         <artifactId>pdfviewer-for-flow</artifactId>
-        <version>01.01.01-170</version>
+        <version>01.01.01-171</version>
       </dependency>
       <dependency>
         <groupId>org.rapidpm.vaadin</groupId>
         <artifactId>nano-vaadin-undertow</artifactId>
-        <version>01.01.01-76</version>
+        <version>01.01.01-78</version>
       </dependency>
 
     </dependencies>
